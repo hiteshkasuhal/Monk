@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
-{
+{ "layout":"theme.el-hp",
   "sections": {
     "custom_liquid_zfAW4G": {
       "type": "custom-liquid",
