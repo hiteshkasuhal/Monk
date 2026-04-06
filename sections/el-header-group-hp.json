@@ -8,8 +8,10 @@
  * ------------------------------------------------------------
  */
 {
-  "name": "el-header-group-hp",
+  "name": "Header Group",
   "type": "header",
-  "sections": {},
-  "order": []
+  "sections": {
+  },
+  "order": [
+  ]
 }
