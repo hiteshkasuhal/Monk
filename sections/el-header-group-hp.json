@@ -19,9 +19,55 @@
         "body_font": "Creato Display",
         "container_width": 1508
       }
+    },
+    "el_header_EKxQhW": {
+      "type": "el-header",
+      "blocks": {
+        "mobile_menu_takfF8": {
+          "type": "mobile_menu",
+          "settings": {
+            "button_code": "Add Your Button Svg Here",
+            "button_close": "Add Your Button Svg Here",
+            "menu": "",
+            "font_type_menu": "body"
+          }
+        },
+        "logo_JzPcVm": {
+          "type": "logo",
+          "settings": {
+            "custom_id": "",
+            "custom_class": ""
+          }
+        },
+        "cart_jwUhAA": {
+          "type": "cart",
+          "settings": {
+            "button_code": "Add Your Cart Icon Svg Here"
+          }
+        }
+      },
+      "block_order": [
+        "mobile_menu_takfF8",
+        "logo_JzPcVm",
+        "cart_jwUhAA"
+      ],
+      "name": "Header",
+      "settings": {
+        "background_color": "#263245",
+        "text_color": "#ffffff",
+        "text_alignment": "center",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "text_alignment_mobile": "center",
+        "padding_top_mobile": 10,
+        "padding_bottom_mobile": 10,
+        "custom_id": "",
+        "custom_class": ""
+      }
     }
   },
   "order": [
-    "el_page_settings_7C6gzY"
+    "el_page_settings_7C6gzY",
+    "el_header_EKxQhW"
   ]
 }
