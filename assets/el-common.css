@@ -137,72 +137,101 @@ body, .el-font-body  {
 
 @font-face {
   font-family: "Creato Display";
-  src: url('');
+  src: url('https://cdn.shopify.com/s/files/1/0914/7485/4272/files/CreatoDisplay-Thin.woff');
+  font-style: normal;
+  font-weight: 100;
+  font-display:swap;
+}
+@font-face {
+  font-family: "Creato Display";
+  src: url('https://cdn.shopify.com/s/files/1/0914/7485/4272/files/CreatoDisplay-ThinItalic.woff');
+  font-style: italic;
+  font-weight: 100;
+  font-display:swap;
+}
+@font-face {
+  font-family: "Creato Display";
+  src: url('https://cdn.shopify.com/s/files/1/0914/7485/4272/files/CreatoDisplay-Light.woff');
   font-style: normal;
   font-weight: 300;
   font-display:swap;
 }
 @font-face {
   font-family: "Creato Display";
-  src: url('');
+  src: url('https://cdn.shopify.com/s/files/1/0914/7485/4272/files/CreatoDisplay-LightItalic.woff');
   font-style: italic;
   font-weight: 300;
   font-display:swap;
 }
 @font-face {
   font-family: "Creato Display";
-  src: url('');
+  src: url('https://cdn.shopify.com/s/files/1/0914/7485/4272/files/CreatoDisplay-Regular.woff');
   font-style: normal;
   font-weight: 400;
   font-display:swap;
 }
 @font-face {
   font-family: "Creato Display";
-  src: url('');
+  src: url('https://cdn.shopify.com/s/files/1/0914/7485/4272/files/CreatoDisplay-RegularItalic.woff');
   font-style: italic;
   font-weight: 400;
   font-display:swap;
 }
 @font-face {
   font-family: "Creato Display";
-  src: url('');
+  src: url('https://cdn.shopify.com/s/files/1/0914/7485/4272/files/CreatoDisplay-Medium.woff');
   font-style: normal;
   font-weight: 500;
   font-display:swap;
 }
 @font-face {
   font-family: "Creato Display";
-  src: url('');
+  src: url('https://cdn.shopify.com/s/files/1/0914/7485/4272/files/CreatoDisplay-MediumItalic.woff');
   font-style: italic;
   font-weight: 500;
   font-display:swap;
 }
+
 @font-face {
   font-family: "Creato Display";
-  src: url('');
-  font-style: normal;
-  font-weight: 600;
-  font-display:swap;
-}
-@font-face {
-  font-family: "Creato Display";
-  src: url('');
-  font-style: italic;
-  font-weight: 600;
-  font-display:swap;
-}
-@font-face {
-  font-family: "Creato Display";
-  src: url('');
+  src: url('https://cdn.shopify.com/s/files/1/0914/7485/4272/files/CreatoDisplay-Bold.woff');
   font-style: normal;
   font-weight: 700;
   font-display:swap;
 }
 @font-face {
   font-family: "Creato Display";
-  src: url('');
+  src: url('https://cdn.shopify.com/s/files/1/0914/7485/4272/files/CreatoDisplay-BoldItalic.woff');
   font-style: italic;
   font-weight: 700;
+  font-display:swap;
+}
+@font-face {
+  font-family: "Creato Display";
+  src: url('https://cdn.shopify.com/s/files/1/0914/7485/4272/files/CreatoDisplay-ExtraBold.woff');
+  font-style: normal;
+  font-weight: 800;
+  font-display:swap;
+}
+@font-face {
+  font-family: "Creato Display";
+  src: url('https://cdn.shopify.com/s/files/1/0914/7485/4272/files/CreatoDisplay-ExtraBoldItalic.woff');
+  font-style: italic;
+  font-weight: 800;
+  font-display:swap;
+}
+@font-face {
+  font-family: "Creato Display";
+  src: url('https://cdn.shopify.com/s/files/1/0914/7485/4272/files/CreatoDisplay-Black.woff');
+  font-style: normal;
+  font-weight: 900;
+  font-display:swap;
+}
+@font-face {
+  font-family: "Creato Display";
+  src: url('https://cdn.shopify.com/s/files/1/0914/7485/4272/files/CreatoDisplay-BlackItalic.woff');
+  font-style: italic;
+  font-weight: 900;
   font-display:swap;
 }
 
