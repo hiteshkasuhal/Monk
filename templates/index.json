@@ -10,6 +10,78 @@
 {
   "layout": "theme.el-hp",
   "sections": {
+    "el_richtext_GMYWPn": {
+      "type": "el-richtext",
+      "blocks": {
+        "richtext_RYkQUN": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>The Hidden Cost of Distraction.</p>",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        },
+        "richtext_NHyHRX": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>The average person spends 6 hours on their phone every day.</p>",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        },
+        "heading_dirYdq": {
+          "type": "heading",
+          "settings": {
+            "text": "10 years",
+            "h1": true,
+            "font_type": "heading",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        },
+        "richtext_rRK3qe": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>That’s how much time the average person will spend on their phone over a lifetime.</p><p>Hours lost to endless scrolling, notifications, and distractions.</p><p>Phase helps you take that time back.</p><p>A simple device that blocks distractions and turns focus into a habit.</p>",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        },
+        "button_PBhQAn": {
+          "type": "button",
+          "settings": {
+            "button_link": "shopify://products/the-monk-tag",
+            "button_label": "Take back your time. Enter Your Phase.",
+            "font_type": "heading",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "richtext_RYkQUN",
+        "richtext_NHyHRX",
+        "heading_dirYdq",
+        "richtext_rRK3qe",
+        "button_PBhQAn"
+      ],
+      "name": "RichText",
+      "settings": {
+        "background_color": "#263245",
+        "text_color": "#ffffff",
+        "text_alignment": "center",
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "text_alignment_mobile": "center",
+        "padding_top_mobile": 50,
+        "padding_bottom_mobile": 50,
+        "custom_id": "",
+        "custom_class": "el-hero-banner"
+      }
+    },
     "el_richtext_LU7npT": {
       "type": "el-richtext",
       "blocks": {
@@ -53,6 +125,7 @@
     }
   },
   "order": [
+    "el_richtext_GMYWPn",
     "el_richtext_LU7npT"
   ]
 }
