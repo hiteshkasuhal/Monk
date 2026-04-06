@@ -1,0 +1,10 @@
+<div class="el-element el-element-icon-with-text-grid-main {{ block.settings.custom_class }} el-element-{{ block.id }}"{% if block.settings.custom_id != blank %} id="{{ block.settings.custom_id }}"{% endif %}>
+<div class="el-element-icon-with-text-grid">
+ {%- for block in section.blocks -%} 
+            {%- case block.type -%}  
+                {%- when 'icon_with_text_item' -%} 
+                    {%  render 'el-element-icon-with-text', block:block %} 
+            {%  endcase %}
+        {%  endfor %} 
+</div>
+</div>

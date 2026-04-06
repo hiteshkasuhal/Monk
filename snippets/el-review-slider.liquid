@@ -1,0 +1,47 @@
+{%  assign counter_block = block %}
+{% capture slider_config %}
+{
+  "dots": false,
+  "arrows": true,
+  "speed": 400,
+  "slidesToShow": {{ block.settings.columns_desktop }},
+  "slidesToScroll": 1,
+  "autoplay": false,
+  "infinite": false,
+  "cssEase": "linear",
+  "prevArrow": ".el-slider-prev-{{ block.id }}",
+  "nextArrow": ".el-slider-next-{{ block.id }}",
+  "responsive": [
+    {
+      "breakpoint": 915,
+      "settings": {
+        "slidesToShow": {{ block.settings.columns_mobile }},
+        "slidesToScroll": 1,
+        "centerMode": true,
+      "infinite": true,
+        "centerPadding": "54px"
+      }
+    }
+  ]
+}
+{% endcapture %}
+<div class="el-element el-element-slider-main {{ block.settings.custom_class }} el-element-{{ block.id }}"{% if block.settings.custom_id != blank %} id="{{ block.settings.custom_id }}"{% endif %}>
+<div class="el-slick-slider" data-slider-config='{{ slider_config | strip }}'>
+ {%- for block in section.blocks -%} 
+            {%- case block.type -%}  
+                {%- when 'review_slide' -%} 
+                    {%  render 'el-review-slide', block:block, counter_block:counter_block %} 
+            {%  endcase %}
+        {%  endfor %} 
+</div>
+<div class="el-slider-navigation el-hide-mobile">
+<button class="el-slider-prev-{{  block.id }} el-slider-button el-slider-prev"><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+  <circle cx="16.9" cy="16.9" r="16.25" transform="matrix(-1 0 0 1 33.8 0)" fill="#A52338"/>
+  <path d="M19.5 15.9249C20.0385 15.9249 20.475 16.3614 20.475 16.8999C20.475 17.4384 20.0385 17.8749 19.5 17.8749L19.5 16.8999L19.5 15.9249ZM11.0106 17.5893C10.6298 17.2086 10.6298 16.5912 11.0106 16.2105L17.2154 10.0056C17.5962 9.62485 18.2135 9.62485 18.5943 10.0056C18.9751 10.3864 18.9751 11.0037 18.5943 11.3845L13.0789 16.8999L18.5943 22.4153C18.9751 22.7961 18.9751 23.4134 18.5943 23.7942C18.2135 24.175 17.5962 24.175 17.2154 23.7942L11.0106 17.5893ZM19.5 16.8999L19.5 17.8749L11.7 17.8749L11.7 16.8999L11.7 15.9249L19.5 15.9249L19.5 16.8999Z" fill="white"/>
+</svg></button>
+<button class="el-slider-next-{{  block.id }} el-slider-button el-slider-next"><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+  <circle cx="16.9" cy="16.9" r="16.9" fill="#A52338"/>
+  <path d="M14.2998 15.9249C13.7613 15.9249 13.3248 16.3614 13.3248 16.8999C13.3248 17.4384 13.7613 17.8749 14.2998 17.8749L14.2998 16.8999L14.2998 15.9249ZM22.7892 17.5893C23.17 17.2086 23.17 16.5912 22.7892 16.2105L16.5844 10.0056C16.2036 9.62485 15.5863 9.62485 15.2055 10.0056C14.8248 10.3864 14.8248 11.0037 15.2055 11.3845L20.7209 16.8999L15.2055 22.4153C14.8248 22.7961 14.8248 23.4134 15.2055 23.7942C15.5863 24.175 16.2036 24.175 16.5844 23.7942L22.7892 17.5893ZM14.2998 16.8999L14.2998 17.8749L22.0998 17.8749L22.0998 16.8999L22.0998 15.9249L14.2998 15.9249L14.2998 16.8999Z" fill="white"/>
+</svg></button>
+</div>
+</div>

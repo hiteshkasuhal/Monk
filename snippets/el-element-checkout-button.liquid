@@ -1,0 +1,65 @@
+ <div class="el-element el-element-button {{ block.settings.custom_class }} el-element-{{ block.id }}"{% if block.settings.custom_id != blank %} id="{{ block.settings.custom_id }}"{% endif %}>
+<div class="el-element-button-{{ block.id }} el-font-{{ block.settings.font_type }}">
+{%  assign single_product = section.settings.collection.products[0] %}
+<button class="el-button el-checkout-button el-trigger-{{ section.id }} el-font-body"  variant_id="{{ product.selected_or_first_available_variant.id }}" selling_plan="{{ product.selected_or_first_available_variant.selling_plan_allocations.first.selling_plan.id }}">{{ block.settings.button_label }}
+
+{% for i in (1..3) %}
+<span class="el-quantity-data{% if forloop.first %} active{% endif %}" data_tab="{{ i }}"{% if forloop.index > 1 %} style="display:none;"{% endif %}>
+{% assign total_quantity = i %}
+{%  if forloop.index == 2 %}
+{% assign total_quantity = 3 %}
+{% endif %}
+{%  if forloop.index == 3 %}
+{% assign total_quantity = 5 %}
+{% endif %}
+{%  assign price = single_product.price | times:i  %}
+{%  assign price_sub = single_product.selected_or_first_available_variant.selling_plan_allocations.first.per_delivery_price | times:i  %}
+{%  assign compare_price = single_product.compare_at_price | times:total_quantity  %}
+{%  assign save_percentage = compare_price | minus:price| times:100 | divided_by:compare_price |round  %}
+{%  assign save_percentage_sub = compare_price | minus:price_sub| times:100 | divided_by:compare_price |round  %}
+<span class="el-sub-tab" sub_tab="1" style="display:none;">
+{{ price | money }} <s>{{ compare_price | money }}</s>
+</span>
+<span class="el-sub-tab" sub_tab="2">
+{{ price_sub | money }} <s>{{ compare_price | money }}</s>
+</span>
+
+</span>
+{% endfor %}
+
+</button></div>
+<script>
+
+$(document).on("click", '.el-trigger-{{ section.id }}', function (e) {
+  e.preventDefault();
+  var $btn = $(this).addClass('el-loading');
+  var items = [];
+$('.el-element-option.active span.el-product-option').each(function(){
+  var VariantId = $(this).attr('variant_id');
+  var Item = {
+    id: parseInt(VariantId),
+    quantity: 1
+  };
+  items.push(Item);
+});
+  // Single call to /cart/add.js
+  $.ajax({
+    type: 'POST',
+    url: '/cart/add.js',
+    data: JSON.stringify({ items: items }),
+    dataType: 'json',
+    contentType: 'application/json',
+    success: function () {
+      location.href = "/checkout";
+    },
+    complete: function () {
+      setTimeout(function () {
+        $btn.removeClass('el-loading');
+      }, 500);
+    }
+  });
+});
+
+</script>
+
+</div>
