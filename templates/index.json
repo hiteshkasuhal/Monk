@@ -7,20 +7,52 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
-{ "layout":"theme.el-hp",
+{
+  "layout": "theme.el-hp",
   "sections": {
-    "custom_liquid_zfAW4G": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
+    "el_richtext_LU7npT": {
+      "type": "el-richtext",
+      "blocks": {
+        "heading_R9HkPq": {
+          "type": "heading",
+          "settings": {
+            "text": "Add Your Heading",
+            "h1": false,
+            "font_type": "heading",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        },
+        "richtext_TqhgVm": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Add Your Description</p>",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_R9HkPq",
+        "richtext_TqhgVm"
+      ],
+      "name": "RichText",
       "settings": {
-        "custom_liquid": "",
-        "color_scheme": "",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "text_alignment": "center",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 0,
+        "text_alignment_mobile": "center",
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0,
+        "custom_id": "",
+        "custom_class": ""
       }
     }
   },
   "order": [
-    "custom_liquid_zfAW4G"
+    "el_richtext_LU7npT"
   ]
 }
