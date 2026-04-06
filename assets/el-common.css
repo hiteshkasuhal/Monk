@@ -1,0 +1,429 @@
+/* common css */
+body {
+    display: block;
+}
+@media (max-width:915px) {
+  .el-hide-mobile {
+    display:none !important;
+  }
+}
+@media (min-width:915px) {
+  .el-hide-desktop {
+    display:none !important;
+  }
+}
+.el-slider-main:not(.slick-initialized) {
+  display:flex;
+}
+html {
+    scroll-behavior: smooth;
+}
+p {
+    margin: unset;
+    padding: unset;
+}
+* {
+    color: unset;
+    letter-spacing: unset;
+    margin: unset;
+    padding: unset;
+}
+h1, h2, h3, h4, h5, .h0, .h1, .h2, .h3, .h4, .h5 {
+    color: unset;
+    letter-spacing: unset;
+    margin: unset;
+    padding: unset;
+}
+.el-text-left-desktop {
+    text-align: left;
+    justify-content: left;
+}
+.el-text-center-desktop {
+    text-align: center;
+    justify-content: center;
+}
+.el-text-right-desktop {
+    text-align: right;
+    justify-content: right;
+}
+img, video {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+.el-no_buttons .slick-arrow {
+    display: none !important;
+}
+
+.el-same-height-slider .slick-slide {
+    height: inherit !important;
+}
+.el-same-height-slider .slick-track {
+    display: flex;
+}
+.el-loading:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: url( https://cdn.shopify.com/s/files/1/0789/0570/4766/files/loading.gif?v=1736941696 );
+    background-size: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+.el-loading {
+    color: transparent !important;
+    position: relative;
+}
+svg, img, video {
+    display: inline-block;
+}
+* {
+    box-sizing: border-box;
+}
+.el-video-wrapper.active img, 
+.el-video-wrapper.active .el-play-button {
+    display: none;
+}
+.el-relative {
+    position: relative;
+}
+.el-container {
+    max-width:100%;
+    width:var(--el-container-width);
+    padding-left:50px;
+    padding-right:50px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+body, .el-font-body  {
+  font-family:var(--el-body-font);
+}
+.el-font-heading{
+  font-family: var(--el-heading-font);
+}
+
+@media (max-width:915px) {
+.el-text-left-mobile {
+    text-align: left;
+    justify-content: left;
+}
+.el-text-center-mobile {
+    text-align: center;
+    justify-content: center;
+}
+.el-text-right-mobilep {
+    text-align: right;
+    justify-content: right;
+}
+.el-container {
+    padding-left:15px;
+    padding-right:15px;
+}
+}
+/* end of common css */
+
+
+
+/* announcment bar start */
+.el-element-annoucement-main {
+    display: inline-flex;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+    font-size: 18.2px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.364px;
+    text-transform: uppercase;
+}
+span.el-countdown-js {
+    display: inline-flex;
+    gap: 7.8px;
+    font-size: 16.9px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.338px;
+    color: rgba(255, 255, 255, 0.80);
+}
+span.el-countdown-js>span>span {
+    color: #FFF;
+}
+span.el-countdown-js>span {
+    padding: 6.2px 19.797px 5.8px 19.203px;
+    background: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(2.6000001430511475px);
+    display: inline-flex;
+    gap: 3px;
+}
+/* desktop css */
+@media (min-width:915px) {
+    
+}
+/* mobile css */
+@media (max-width:915px) {
+
+}
+/* announcment bar end */
+
+
+
+
+
+/* header section css start */
+.shopify-section.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+}
+.el-header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.el-header-logo {
+    width: 192px;
+    max-width: 100%;
+}
+.el-header-logo img {
+    width: 100%;
+    height: auto;
+}
+.el-mobile-menu-button, 
+.el-cart-button {
+    background: transparent;
+    padding: 0;
+    border: unset;
+    box-shadow: unset;
+    cursor: pointer;
+}
+.el-element-drawer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 500px;
+    max-width: 100%;
+    height: 100%;
+    z-index: 11;
+    transition: all .5s ease;
+}
+.el-drawer-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .5;
+    cursor: pointer;
+    z-index: 10;
+}
+.el-drawer-menu {
+    padding-right: 20px;
+}
+.el-drawer-menu-inner {
+    position: relative;
+    background: #fff;
+    width: 100%;
+    max-width: 100%;
+    color: #1c1c1c;
+    height: 100%;
+    padding: 30px 30px;
+}
+button.el-mobile-menu-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: transparent;
+    border: unset;
+    box-shadow: unset;
+    cursor: pointer;
+}
+.el-drawer-menu-content {
+    height: 100%;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.el-drawer-menu-content .el-element-menu-main {
+    flex: 1;
+}
+.el-drawer-menu-content a {
+    width: 100%;
+    display: block;
+    text-decoration: unset;
+    font-size: 18px;
+    padding: 12px 0;
+}
+.el-drawer-menu {
+    left: -100%;
+}
+.el-drawer-menu.active {
+    left: 0;
+}
+.el-header, 
+.el-annoucement-bar {
+    position: relative;
+    z-index: 1;
+}
+
+body.el-hp-body:not(.remove_transparent) .el-header .el-mobile-menu-button, 
+body.el-hp-body:not(.remove_transparent) .el-header .el-cart-button, 
+body.el-hp-body:not(.remove_transparent) .el-element-logo {
+    filter: invert(1);
+}
+body.el-hp-body:not(.remove_transparent) .el-header {
+    background: transparent !important;
+}
+.el-header {
+    transition: all .3s ease;
+}   
+
+
+/* desktop css */
+@media (min-width:915px) {
+}
+
+
+
+/* mobile css */
+@media (max-width:915px) {
+.el-drawer-menu-content a {
+    font-size: 15px;
+    padding: 8px 0;
+}
+.el-drawer-menu-inner {
+    padding: 30px 20px;
+}
+.el-element-annoucement-main {
+    gap: 12px;
+    font-size: 14px;
+    letter-spacing: -0.28px;
+    justify-content: center;
+}
+span.el-countdown-js {
+    gap: 6px;
+    font-size: 12px;
+    letter-spacing: -0.24px;
+}
+span.el-countdown-js>span {
+    padding: 5px 5px 3px;
+}
+.el-header-logo {
+    width: 147px;
+    max-width: 100%;
+}
+.el-header-content svg {
+    height: 16px;
+    width: auto;
+}
+}
+/* header section css end */
+
+
+
+
+
+/* footer css start */
+.el-footer .el-footer-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+.el-footer-logo {
+    width: 100%;
+    padding-bottom: 30px;
+}
+.el-footer-logo img {
+    width: 273px;
+}
+.el-footer-text {
+    width: 100%;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #FFFFFF80;
+}
+.el-footer-copyright {
+    font-size: 15.6px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: -0.312px;
+    width: 100%;
+    padding-top: 25px;
+}
+.el-footer-payment-icons {
+    width: 100%;
+    border-top: 1px solid #FFFFFF80;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+.el-footer-payment-icons img {
+    width: 352px;
+}
+.el-footer-menu .el-menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.el-footer-menu .el-menu-list a {
+    font-size: 18.2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: -0.364px;
+    text-decoration: none;
+}
+.el-footer-menu2 {
+    padding-left: 100px;
+}
+
+
+
+@media (max-width: 915px) {
+.el-footer-logo img {
+    width: 210px;
+}
+.el-footer-logo {
+    padding-bottom: 16px;
+}
+.el-footer-text {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.el-footer-menu .el-menu-list a {
+    font-size: 14px;
+    letter-spacing: -0.28px;
+}
+.el-footer-menu .el-menu-list {
+    gap: 19px;
+}
+.el-footer-menu2 {
+    padding-left: 0px;
+    width: 100%;
+    padding-top: 19px;
+}
+.el-footer-payment-icons {
+    padding-top: 30px;
+    margin-top: 30px;
+}
+.el-footer-payment-icons img {
+    width: 271px;
+}
+.el-footer-copyright {
+    font-size: 12px;
+    letter-spacing: -0.24px;
+    padding-top: 15px;
+}
+}
+/* footer css end */
