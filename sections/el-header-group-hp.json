@@ -11,7 +11,17 @@
   "name": "Header Group",
   "type": "header",
   "sections": {
+    "el_page_settings_7C6gzY": {
+      "type": "el-page-settings",
+      "name": "Page Settings",
+      "settings": {
+        "heading_font": "Bodoni Moda",
+        "body_font": "Bodoni Moda",
+        "container_width": 1508
+      }
+    }
   },
   "order": [
+    "el_page_settings_7C6gzY"
   ]
 }
