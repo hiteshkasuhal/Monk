@@ -342,17 +342,6 @@ button.el-mobile-menu-close {
     z-index: 1;
 }
 
-body.el-hp-body:not(.remove_transparent) .el-header .el-mobile-menu-button, 
-body.el-hp-body:not(.remove_transparent) .el-header .el-cart-button, 
-body.el-hp-body:not(.remove_transparent) .el-element-logo {
-    filter: invert(1);
-}
-body.el-hp-body:not(.remove_transparent) .el-header {
-    background: transparent !important;
-}
-.el-header {
-    transition: all .3s ease;
-}   
 
 
 /* desktop css */
