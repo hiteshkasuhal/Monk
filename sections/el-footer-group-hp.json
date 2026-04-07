@@ -15,7 +15,7 @@
       "type": "el-footer",
       "name": "Footer",
       "settings": {
-        "background_color": "#000000",
+        "background_color": "#263245",
         "text_color": "#ffffff",
         "text_alignment": "left",
         "padding_top": 50,
