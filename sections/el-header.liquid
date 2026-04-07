@@ -43,6 +43,8 @@
             {%- case block.type -%} 
                 {%- when 'mobile_menu' -%} 
                     {%  render 'el-element-mobile-menu-icon', block:block %} 
+                {%- when 'desktop_menu' -%} 
+                    {%  render 'el-element-desktop-menu', block:block %} 
                 {%- when 'logo' -%} 
                     {%  render 'el-element-logo', block:block %} 
                 {%- when 'cart' -%} 
