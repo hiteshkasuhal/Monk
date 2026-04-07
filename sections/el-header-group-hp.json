@@ -35,8 +35,9 @@
         "logo_JzPcVm": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/logo_Monk_blue.webp",
             "custom_id": "",
-            "custom_class": ""
+            "custom_class": "el-header-logo"
           }
         },
         "desktop_menu_3f7mq4": {
