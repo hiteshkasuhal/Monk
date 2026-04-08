@@ -52,6 +52,10 @@ h1 {
     background: transparent;
     color: #263245;
 }
+.el-btn-white .el-button {
+    background: #F0F0F0;
+    color: #263245;
+}
 /* same css end */
 
 
