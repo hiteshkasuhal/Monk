@@ -77,7 +77,7 @@ h1 {
 }
 .h1 {
     font-size: 52px;
-    line-height: normal;
+    line-height: 65px;
     text-transform: capitalize;
 }
 /* same css end */
