@@ -68,6 +68,11 @@ h1 {
     padding-left: 50px;
     padding-right: 50px;
 }
+.h1 {
+    font-size: 52px;
+    line-height: normal;
+    text-transform: capitalize;
+}
 /* same css end */
 
 
