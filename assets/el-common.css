@@ -462,6 +462,13 @@ button.el-mobile-menu-close {
 
 
 
+.el-header-logo {
+    width: 102px;
+    max-width: 100%;
+}
+
+
+
 /* desktop css */
 @media (min-width:915px) {
 }
