@@ -108,4 +108,7 @@ h1 {
 .el-hp-section1 .reviews_center_slider_new {
     padding-top: 25px;
 }
+.el-hp-section1 .slider_navigations.center {
+    display: none !important;
+}
 /* section2 css end */
