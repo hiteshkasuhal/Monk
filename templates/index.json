@@ -225,12 +225,23 @@
             "position": "left",
             "custom_class": "el-section3-button"
           }
+        },
+        "image_4gNbe8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/hp-section3-img.webp",
+            "loading": "eager",
+            "fetchpriority": "high",
+            "position": "right",
+            "custom_class": "el-section3-img"
+          }
         }
       },
       "block_order": [
         "heading_pCTNDm",
         "richtext_m4fHg7",
-        "button_FX9mnn"
+        "button_FX9mnn",
+        "image_4gNbe8"
       ],
       "name": "Two Richtext LP",
       "settings": {
