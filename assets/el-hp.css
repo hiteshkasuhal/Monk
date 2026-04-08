@@ -29,6 +29,23 @@ h1 {
     line-height: normal;
     font-size: 120px;
 }
+.el-button {
+    text-decoration: none;
+    font-size: 21px;
+    transition: all 0.3s ease;
+    line-height: normal;
+    cursor: pointer;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin: 0px auto;
+    align-items: center;
+    background: #263245;
+    padding: 0px 30px;
+    border-radius: 10px;
+    border: 2px solid #263245;
+}
 /* same css end */
 
 
