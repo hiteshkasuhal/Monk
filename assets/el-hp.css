@@ -61,6 +61,13 @@ h1 {
     background: transparent;
     color: #F0F0F0;
 }
+.container_hk {
+    width: 1508px;
+    max-width: 100%;
+    margin: 0px auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
 /* same css end */
 
 
