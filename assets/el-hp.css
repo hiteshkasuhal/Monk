@@ -29,7 +29,8 @@ h1 {
     line-height: normal;
     font-size: 120px;
 }
-.el-button {
+.el-button,
+.custom_hk_button {
     text-decoration: none;
     font-size: 21px;
     transition: all .3s ease;
@@ -48,7 +49,8 @@ h1 {
     font-family: var(--el-body-font);
     font-weight: 500;
 }
-.el-button:hover {
+.el-button:hover,
+.custom_hk_button:hover {
     background: transparent;
     color: #263245;
 }
