@@ -206,7 +206,7 @@
             "heading_size": "h1",
             "h1": false,
             "position": "left",
-            "custom_class": ""
+            "custom_class": "el-section3-heading"
           }
         },
         "richtext_m4fHg7": {
@@ -214,7 +214,7 @@
           "settings": {
             "text": "<p>Tap Out is an app blocker with a powerful twist:</p><p><strong>The only way to access your apps, is by tapping the Tap Out.</strong></p><p><em><strong>Physically.</strong></em></p><p>Select the apps you want to block, put your Tap Out in another room (ours is on the fridge), and there's no way to your distracting apps.</p>",
             "position": "left",
-            "custom_class": ""
+            "custom_class": "el-section3-text1"
           }
         },
         "button_FX9mnn": {
