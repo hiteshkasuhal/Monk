@@ -57,7 +57,7 @@
             "button_label": "Take back your time. Enter Your Phase.",
             "font_type": "heading",
             "custom_id": "",
-            "custom_class": ""
+            "custom_class": "el-btn-white"
           }
         }
       },
