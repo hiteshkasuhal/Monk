@@ -223,7 +223,7 @@
             "button_label": "Customize for your business",
             "button_link": "",
             "position": "left",
-            "custom_class": "el-button el-section3-button"
+            "custom_class": "el-section3-button"
           }
         }
       },
