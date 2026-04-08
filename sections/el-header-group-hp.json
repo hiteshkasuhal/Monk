@@ -20,6 +20,41 @@
         "container_width": 1508
       }
     },
+    "richtext_lp_VYQmay": {
+      "type": "richtext_lp",
+      "blocks": {
+        "richtext_UrjwyD": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+            "html": "",
+            "custom_class": "el-header-top-text1",
+            "custom_id": ""
+          }
+        }
+      },
+      "block_order": [
+        "richtext_UrjwyD"
+      ],
+      "name": "Richtext LP",
+      "settings": {
+        "custom_class": "el-header-top",
+        "custom_id": "",
+        "svg_desktop": "",
+        "svg_mobile": "",
+        "svg_desktop2": "",
+        "svg_mobile2": "",
+        "bg_color": "#263245",
+        "bg_color2": "",
+        "color": "#ffffff",
+        "position": "center",
+        "padding_top": 16,
+        "padding_bottom": 16,
+        "padding_top_mobile": 12,
+        "padding_bottom_mobile": 12,
+        "trigger_class": ""
+      }
+    },
     "el_header_EKxQhW": {
       "type": "el-header",
       "blocks": {
@@ -77,6 +112,7 @@
   },
   "order": [
     "el_page_settings_7C6gzY",
+    "richtext_lp_VYQmay",
     "el_header_EKxQhW"
   ]
 }
