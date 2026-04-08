@@ -25,7 +25,10 @@
 
 
 /* same css start */
-
+h1 {
+    line-height: normal;
+    font-size: 120px;
+}
 /* same css end */
 
 
