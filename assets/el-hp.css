@@ -48,6 +48,7 @@ h1 {
     border: 2px solid #263245;
     font-family: var(--el-body-font);
     font-weight: 500;
+    color: #fff;
 }
 .el-button:hover,
 .custom_hk_button:hover {
