@@ -57,6 +57,10 @@ h1 {
     color: #263245;
     border-color: #F0F0F0;
 }
+.el-btn-white .el-button:hover {
+    background: transparent;
+    color: #F0F0F0;
+}
 /* same css end */
 
 
