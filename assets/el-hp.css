@@ -84,4 +84,7 @@ h1 {
     flex-direction: column;
     gap: 10px;
 }
+.el-hp-section1-text3 {
+    padding-bottom: 30px;
+}
 /* section1 css end */
