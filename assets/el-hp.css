@@ -47,4 +47,9 @@ h1 {
 .el-hp-section1-text2 {
     padding: 12px 0px 0px;
 }
+.el-hp-section1-text3 .el-element-richtext {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 /* section1 css end */
