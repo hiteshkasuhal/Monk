@@ -476,6 +476,12 @@ button.el-mobile-menu-close {
     font-size: 18px;
     font-weight: 500;
 }
+.el-header-top-text1 {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: normal;
+}
 
 
 
