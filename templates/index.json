@@ -81,9 +81,124 @@
         "custom_id": "",
         "custom_class": "el-hero-banner"
       }
+    },
+    "review_slider_lp_F7UBxm": {
+      "type": "review_slider_lp",
+      "blocks": {
+        "review_BNA3XC": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/slider-img1.webp",
+            "loading": "lazy",
+            "fetchpriority": "low",
+            "rating": "",
+            "rating_text": "",
+            "text": "",
+            "name": "",
+            "verified_img": "",
+            "verified_text": "",
+            "richtext": ""
+          }
+        },
+        "review_GCLqyW": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/slider-img2.webp",
+            "loading": "lazy",
+            "fetchpriority": "low",
+            "rating": "",
+            "rating_text": "",
+            "text": "",
+            "name": "",
+            "verified_img": "",
+            "verified_text": "",
+            "richtext": ""
+          }
+        },
+        "review_thHFxW": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/slider-img3.webp",
+            "loading": "lazy",
+            "fetchpriority": "low",
+            "rating": "",
+            "rating_text": "",
+            "text": "",
+            "name": "",
+            "verified_img": "",
+            "verified_text": "",
+            "richtext": ""
+          }
+        },
+        "review_h7jnkP": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/slider-img4.webp",
+            "loading": "lazy",
+            "fetchpriority": "low",
+            "rating": "",
+            "rating_text": "",
+            "text": "",
+            "name": "",
+            "verified_img": "",
+            "verified_text": "",
+            "richtext": ""
+          }
+        },
+        "review_Xf6WkV": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/slider-img5.webp",
+            "loading": "lazy",
+            "fetchpriority": "low",
+            "rating": "",
+            "rating_text": "",
+            "text": "",
+            "name": "",
+            "verified_img": "",
+            "verified_text": "",
+            "richtext": ""
+          }
+        }
+      },
+      "block_order": [
+        "review_BNA3XC",
+        "review_GCLqyW",
+        "review_thHFxW",
+        "review_h7jnkP",
+        "review_Xf6WkV"
+      ],
+      "name": "Review Slider LP",
+      "settings": {
+        "custom_class": "el-hp-section1",
+        "custom_id": "",
+        "svg_desktop": "",
+        "svg_mobile": "",
+        "svg_desktop2": "",
+        "svg_mobile2": "",
+        "bg_color": "",
+        "bg_color2": "",
+        "position": "center",
+        "color": "",
+        "rating": "",
+        "rating_text": "",
+        "heading": "Reclaim time for the things that matter most.",
+        "subheading": "",
+        "button_label": "",
+        "button_link": "",
+        "text2": "",
+        "richtext": "",
+        "columns_desktop": 5,
+        "columns_mobile": 1,
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40
+      }
     }
   },
   "order": [
-    "el_richtext_GMYWPn"
+    "el_richtext_GMYWPn",
+    "review_slider_lp_F7UBxm"
   ]
 }
