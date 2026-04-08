@@ -135,4 +135,12 @@ h1 {
 .el-section3-button2 {
     padding-top: 21px;
 }
+.el-section3-button2 .custom_hk_button {
+    background: transparent;
+    color: #263245;
+}
+.el-section3-button2 .custom_hk_button:hover {
+    background: #263245;
+    color: #fff;
+}
 /* section3 css end */
