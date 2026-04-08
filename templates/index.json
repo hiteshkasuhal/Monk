@@ -217,13 +217,22 @@
             "custom_class": "el-section3-text1"
           }
         },
+        "button_B8J4Rf": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop now →",
+            "button_link": "",
+            "position": "left",
+            "custom_class": "el-section3-button el-section3-button1"
+          }
+        },
         "button_FX9mnn": {
           "type": "button",
           "settings": {
             "button_label": "Customize for your business",
             "button_link": "",
             "position": "left",
-            "custom_class": "el-section3-button"
+            "custom_class": "el-section3-button el-section3-button2"
           }
         },
         "image_4gNbe8": {
@@ -240,6 +249,7 @@
       "block_order": [
         "heading_pCTNDm",
         "richtext_m4fHg7",
+        "button_B8J4Rf",
         "button_FX9mnn",
         "image_4gNbe8"
       ],
