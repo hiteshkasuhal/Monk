@@ -143,4 +143,7 @@ h1 {
     background: #263245;
     color: #fff;
 }
+.el-hp-section3 .custom-flex_two_ad {
+    justify-content: space-between;
+}
 /* section3 css end */
