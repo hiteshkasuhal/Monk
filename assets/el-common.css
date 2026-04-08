@@ -470,6 +470,12 @@ button.el-mobile-menu-close {
     display: flex;
     gap: 30px;
 }
+.el-menu-list a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 500;
+}
 
 
 
