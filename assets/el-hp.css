@@ -146,4 +146,8 @@ h1 {
 .el-hp-section3 .custom-flex_two_ad {
     justify-content: space-between;
 }
+.el-hp-section3 .custom-flex_two_ad .custom-flex_item_ad_1 {
+    width: 42%;
+    max-width: 100%;
+}
 /* section3 css end */
