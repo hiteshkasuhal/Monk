@@ -119,5 +119,7 @@ h1 {
 
 
 /* section3 css start */
-
+.el-section3-button {
+    width: fit-content;
+}
 /* section3 css end */
