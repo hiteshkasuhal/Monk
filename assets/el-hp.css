@@ -46,6 +46,10 @@ h1 {
     border-radius: 10px;
     border: 2px solid #263245;
 }
+.el-button:hover {
+    background: transparent;
+    color: #263245;
+}
 /* same css end */
 
 
