@@ -25,6 +25,10 @@
 
 
 /* same css start */
+p {
+    font-size: 18px;
+    line-height: normal;
+}
 h1 {
     line-height: normal;
     font-size: 120px;
