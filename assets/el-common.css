@@ -132,6 +132,119 @@ body, .el-font-body  {
 
 
 
+/* common css */
+.scrolbar1_custom .flex_custom_item_flex span, .top_scroll_bar_custom.center .flex_custom_item_flex span {
+    white-space: nowrap;
+}
+.product-main-slider:not(.slick-initialized) {
+  display:flex;
+}
+.product-main-slider:not(.slick-initialized) .product_images:not(:first-child){
+  display:none !important;
+}
+body {
+    display: block;
+}
+@media (max-width:915px) {
+  .desktop_only {
+    display:none !important;
+  }
+}
+@media (min-width:915px) {
+  .mobile_only {
+    display:none !important;
+  }
+}
+.custom_slick_slider:not(.slick-initialized) {
+  display:flex;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+p {
+    margin: unset;
+    padding: unset;
+}
+* {
+    padding: 0;
+    margin: 0;
+    letter-spacing: unset;
+    color: unset;
+    letter-spacing: 0;
+    margin: unset;
+    padding: unset;
+}
+h1, h2, h3, h4, h5, .h0, .h1, .h2, .h3, .h4, .h5 {
+    color: unset;
+    letter-spacing: 0;
+    margin: unset;
+    padding: unset;
+}
+
+.left {
+    text-align: left;
+    justify-content: left;
+}
+.center {
+    text-align: center;
+    justify-content: center;
+}
+.right {
+    text-align: right;
+    justify-content: right;
+}
+img, video {
+    max-width: 100%;
+    display: block;
+}
+
+.no_buttons .slick-arrow {
+    display: none !important;
+}
+
+.same_height_slider .slick-slide {
+    height: inherit !important;
+}
+.same_height_slider .slick-track {
+    display: flex;
+}
+.loading_hk:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: url( https://cdn.shopify.com/s/files/1/0789/0570/4766/files/loading.gif?v=1736941696 );
+    background-size: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+.loading_hk {
+    color: transparent !important;
+    position: relative;
+}
+svg, img, video {
+    display: block;
+}
+* {
+    box-sizing: border-box;
+}
+.video_wrapper_custom.video-active img, 
+.video_wrapper_custom.video-active .custom_button.active {
+    display: none;
+}
+.relative {
+    position: relative;
+}
+/* end of common css */
+
+
+
 
 /* font face */
 
