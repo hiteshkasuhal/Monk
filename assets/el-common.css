@@ -466,6 +466,10 @@ button.el-mobile-menu-close {
     width: 102px;
     max-width: 100%;
 }
+.el-menu-list {
+    display: flex;
+    gap: 30px;
+}
 
 
 
