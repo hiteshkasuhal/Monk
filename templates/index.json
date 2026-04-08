@@ -212,7 +212,7 @@
         "richtext_m4fHg7": {
           "type": "richtext",
           "settings": {
-            "text": "<p>Tap Out is an app blocker with a powerful twist:</p><p>The only way to access your apps, is by tapping the Tap Out.</p><p>Physically.</p><p>Select the apps you want to block, put your Tap Out in another room (ours is on the fridge), and there's no way to your distracting apps.</p>",
+            "text": "<p>Tap Out is an app blocker with a powerful twist:</p><p><strong>The only way to access your apps, is by tapping the Tap Out.</strong></p><p><em><strong>Physically.</strong></em></p><p>Select the apps you want to block, put your Tap Out in another room (ours is on the fridge), and there's no way to your distracting apps.</p>",
             "position": "left",
             "custom_class": ""
           }
