@@ -404,4 +404,9 @@ h1 {
     text-transform: capitalize;
     padding-bottom: 16px;
 }
+.el-footer-logo .el-element-texts {
+    font-size: 21px;
+    width: 90%;
+    padding-top: 25px;
+}
 /* footer css end */
