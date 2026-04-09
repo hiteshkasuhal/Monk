@@ -122,6 +122,9 @@ ul.slick-dots li.slick-active button {
 .slider_button_custom svg path {
     stroke: #fff;
 }
+.slider_button_custom {
+    cursor: pointer;
+}
 /* same css end */
 
 
