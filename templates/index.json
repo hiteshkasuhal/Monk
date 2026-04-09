@@ -395,6 +395,38 @@
         "padding_top_mobile": 40,
         "padding_bottom_mobile": 40
       }
+    },
+    "icons_with_text_lp_jrqtUA": {
+      "type": "icons_with_text_lp",
+      "blocks": {
+        "column_ajzJJW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/slider-img2.webp",
+            "svg": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_ajzJJW"
+      ],
+      "name": "Icons With Text LP",
+      "settings": {
+        "custom_class": "el-hp-img-slider",
+        "custom_id": "",
+        "bg_color": "#263245",
+        "text_color": "",
+        "heading": "",
+        "enable_slider": true,
+        "slider_speed": 9,
+        "columns_desktop": 3,
+        "columns_mobile": 2,
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 30
+      }
     }
   },
   "order": [
@@ -402,6 +434,7 @@
     "review_slider_lp_F7UBxm",
     "two_layer_richtext_6PcBr8",
     "two_layer_richtext_tA6x9L",
-    "video_slider_lp_eGnkU8"
+    "video_slider_lp_eGnkU8",
+    "icons_with_text_lp_jrqtUA"
   ]
 }
