@@ -28,7 +28,7 @@
         "richtext_RYgpJp": {
           "type": "richtext",
           "settings": {
-            "text": "<ul><li><a href=\"#\" title=\"#\">menu 1</a></li><li><a href=\"#\" title=\"#\">menu 2</a></li><li><a href=\"#\" title=\"#\">menu 3</a></li><li><a href=\"#\" title=\"#\">menu 4</a></li><li><a href=\"#\" title=\"#\">menu 5</a></li></ul>",
+            "text": "<p>link</p><ul><li><a href=\"#\" title=\"#\">menu 1</a></li><li><a href=\"#\" title=\"#\">menu 2</a></li><li><a href=\"#\" title=\"#\">menu 3</a></li><li><a href=\"#\" title=\"#\">menu 4</a></li><li><a href=\"#\" title=\"#\">menu 5</a></li></ul>",
             "font_type": "body",
             "custom_id": "",
             "custom_class": "el-footer-menu el-footer-menu1"
@@ -37,7 +37,7 @@
         "richtext_rnKetM": {
           "type": "richtext",
           "settings": {
-            "text": "<ul><li><a href=\"#\" title=\"#\">menu 1</a></li><li><a href=\"#\" title=\"#\">menu 2</a></li><li><a href=\"#\" title=\"#\">menu 3</a></li><li><a href=\"#\" title=\"#\">menu 4</a></li><li><a href=\"#\" title=\"#\">menu 5</a></li></ul>",
+            "text": "<p>link</p><ul><li><a href=\"#\" title=\"#\">menu 1</a></li><li><a href=\"#\" title=\"#\">menu 2</a></li><li><a href=\"#\" title=\"#\">menu 3</a></li><li><a href=\"#\" title=\"#\">menu 4</a></li><li><a href=\"#\" title=\"#\">menu 5</a></li></ul>",
             "font_type": "body",
             "custom_id": "",
             "custom_class": "el-footer-menu el-footer-menu2"
@@ -46,7 +46,7 @@
         "richtext_tcJP3Q": {
           "type": "richtext",
           "settings": {
-            "text": "<ul><li>Street:  1435 Laurel Lee</li><li>City:  North St Paul</li><li>State/province/area:   Minnesota</li><li>Zip code:  55109</li><li>Country calling code:  +1</li><li>Country:  United States</li><li>Phone number:  <a href=\"tel:651-779-2938\" title=\"tel:651-779-2938\">651-779-2938</a></li><li>Email: <a href=\"mailto:monk@gmail.com\" title=\"mailto:monk@gmail.com\">monk@gmail.com</a></li></ul>",
+            "text": "<p>address</p><ul><li>Street:  1435 Laurel Lee</li><li>City:  North St Paul</li><li>State/province/area:   Minnesota</li><li>Zip code:  55109</li><li>Country calling code:  +1</li><li>Country:  United States</li><li>Phone number:  <a href=\"tel:651-779-2938\" title=\"tel:651-779-2938\">651-779-2938</a></li><li>Email: <a href=\"mailto:monk@gmail.com\" title=\"mailto:monk@gmail.com\">monk@gmail.com</a></li></ul>",
             "font_type": "body",
             "custom_id": "",
             "custom_class": "el-footer-menu el-footer-text1"
