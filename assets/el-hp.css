@@ -209,4 +209,9 @@ h1 {
 .videos_slider_main {
     margin: 0px -12px;
 }
+.video_wrapper_custom {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
 /* video css end */
