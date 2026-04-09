@@ -156,5 +156,9 @@ h1 {
 
 
 /* section4 css start */
-
+.el-section4-list1 .icons_with_text_flex {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
 /* section4 css end */
