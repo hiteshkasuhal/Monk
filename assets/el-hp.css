@@ -199,9 +199,6 @@ h1 {
     font-weight: 500;
     padding-bottom: 16px;
 }
-.slider_button_custom {
-    display: none !important;
-}
 .videos_slider_item {
     padding: 0px 12px;
     cursor: grab;
