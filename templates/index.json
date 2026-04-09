@@ -502,6 +502,74 @@
         "padding_top_mobile": 40,
         "padding_bottom_mobile": 40
       }
+    },
+    "faq_lp_j3KDWr": {
+      "type": "faq_lp",
+      "blocks": {
+        "faq_pgWPxc": {
+          "type": "faq",
+          "settings": {
+            "question": "How is Brick different from Apple’s Screen Time or Android Digital Wellbeing?",
+            "answer": "<p>Screen Time and Digital Wellbeing limits are easy to bypass — tap 'skip' and you're back in. Brick creates physical separation, requiring a rescan to exit, which reinforces intention and keeps temptation out of reach.</p>"
+          }
+        },
+        "faq_kH9RRU": {
+          "type": "faq",
+          "settings": {
+            "question": "How is Brick different from Apple’s Screen Time or Android Digital Wellbeing?",
+            "answer": "<p>Screen Time and Digital Wellbeing limits are easy to bypass — tap 'skip' and you're back in. Brick creates physical separation, requiring a rescan to exit, which reinforces intention and keeps temptation out of reach.</p>"
+          }
+        },
+        "faq_APctK3": {
+          "type": "faq",
+          "settings": {
+            "question": "How is Brick different from Apple’s Screen Time or Android Digital Wellbeing?",
+            "answer": "<p>Screen Time and Digital Wellbeing limits are easy to bypass — tap 'skip' and you're back in. Brick creates physical separation, requiring a rescan to exit, which reinforces intention and keeps temptation out of reach.</p>"
+          }
+        },
+        "faq_gBCfXb": {
+          "type": "faq",
+          "settings": {
+            "question": "How is Brick different from Apple’s Screen Time or Android Digital Wellbeing?",
+            "answer": "<p>Screen Time and Digital Wellbeing limits are easy to bypass — tap 'skip' and you're back in. Brick creates physical separation, requiring a rescan to exit, which reinforces intention and keeps temptation out of reach.</p>"
+          }
+        },
+        "faq_TKbEWT": {
+          "type": "faq",
+          "settings": {
+            "question": "How is Brick different from Apple’s Screen Time or Android Digital Wellbeing?",
+            "answer": "<p>Screen Time and Digital Wellbeing limits are easy to bypass — tap 'skip' and you're back in. Brick creates physical separation, requiring a rescan to exit, which reinforces intention and keeps temptation out of reach.</p>"
+          }
+        },
+        "faq_WNWVX6": {
+          "type": "faq",
+          "settings": {
+            "question": "How is Brick different from Apple’s Screen Time or Android Digital Wellbeing?",
+            "answer": "<p>Screen Time and Digital Wellbeing limits are easy to bypass — tap 'skip' and you're back in. Brick creates physical separation, requiring a rescan to exit, which reinforces intention and keeps temptation out of reach.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_pgWPxc",
+        "faq_kH9RRU",
+        "faq_APctK3",
+        "faq_gBCfXb",
+        "faq_TKbEWT",
+        "faq_WNWVX6"
+      ],
+      "name": "FAQ LP",
+      "settings": {
+        "custom_class": "el-hp-faq",
+        "custom_id": "",
+        "bg_color": "#f0f0f0",
+        "color": "#000000",
+        "heading": "<strong>FAQs</strong>",
+        "text": "",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40
+      }
     }
   },
   "order": [
@@ -511,6 +579,7 @@
     "two_layer_richtext_tA6x9L",
     "video_slider_lp_eGnkU8",
     "icons_with_text_lp_jrqtUA",
-    "two_layer_richtext_Ach8wG"
+    "two_layer_richtext_Ach8wG",
+    "faq_lp_j3KDWr"
   ]
 }
