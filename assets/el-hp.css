@@ -202,4 +202,7 @@ h1 {
 .slider_button_custom {
     display: none !important;
 }
+.videos_slider_item {
+    padding: 0px 12px;
+}
 /* video css end */
