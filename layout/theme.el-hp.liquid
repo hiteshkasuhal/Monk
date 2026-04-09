@@ -48,6 +48,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"/>
 {{ 'el-common.css' | asset_url | stylesheet_tag: preload: true }}
 {{ 'el-hp.css' | asset_url | stylesheet_tag: preload: true }}
@@ -59,8 +61,6 @@
       {{ content_for_layout }}
     </main>
       {% sections 'el-footer-group-hp' %}
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 <script src="{{ 'el-common.js' | asset_url }}" async="async"></script>
 <script src="{{ 'el-hp.js' | asset_url }}" async="async"></script>
 
