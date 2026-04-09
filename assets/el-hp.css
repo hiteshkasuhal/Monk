@@ -272,3 +272,14 @@ h1 {
     gap: 12px;
 }
 /* video css end */
+
+
+
+/* img slider bar css start */
+.el-hp-img-slider .flex_custom_item_flex img {
+    height: 290px;
+    width: auto;
+    object-fit: contain;
+    margin: 0px 7px;
+}
+/* img slider bar css end */
