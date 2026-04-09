@@ -313,6 +313,11 @@ ul.slick-dots li.slick-active button {
     flex-direction: column;
     gap: 12px;
 }
+.video_slider_custom .container_hk {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
 /* video css end */
 
 
