@@ -375,22 +375,13 @@
             "text": "\"I used to set app limits in my phone settings...I always hit ignore.\"",
             "richtext": "<p>Griffin</p>"
           }
-        },
-        "video_jL3fhf": {
-          "type": "video",
-          "settings": {
-            "video": "shopify://files/videos/copy_872E63CF-8C75-4370-88F0-41EE86D361C1.mov",
-            "text": "\"I used to set app limits in my phone settings...I always hit ignore.\"",
-            "richtext": "<p>Griffin</p>"
-          }
         }
       },
       "block_order": [
         "video_NgM4HN",
         "video_A8TKHa",
         "video_9LYVWi",
-        "video_WCWFaD",
-        "video_jL3fhf"
+        "video_WCWFaD"
       ],
       "name": "Video Slider LP",
       "settings": {
