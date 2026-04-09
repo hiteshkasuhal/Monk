@@ -85,6 +85,11 @@ h1 {
     align-items: center;
     gap: 50px;
 }
+ul.slick-dots {
+    display: flex;
+    list-style-type: none;
+    gap: 12px;
+}
 /* same css end */
 
 
