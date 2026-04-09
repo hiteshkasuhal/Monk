@@ -51,13 +51,23 @@
             "custom_id": "",
             "custom_class": "el-footer-menu el-footer-text1"
           }
+        },
+        "richtext_CAfFqt": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>© 2026 Monk. All Rights Reserved.</p>",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": "el-footer-copyright"
+          }
         }
       },
       "block_order": [
         "image_yBMdkJ",
         "richtext_RYgpJp",
         "richtext_rnKetM",
-        "richtext_tcJP3Q"
+        "richtext_tcJP3Q",
+        "richtext_CAfFqt"
       ],
       "name": "Footer",
       "settings": {
