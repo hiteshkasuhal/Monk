@@ -362,4 +362,9 @@ h1 {
 .faq_question.active:after {
     content: "-";
 }
+.faq_answer {
+    font-size: 18px;
+    line-height: normal;
+    padding: 0px 16px 16px;
+}
 /* faq css end */
