@@ -221,4 +221,14 @@ h1 {
 .videos_top_slider.center {
     padding-bottom: 40px;
 }
+.video_wrapper_custom img {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    cursor: pointer;
+}
 /* video css end */
