@@ -271,9 +271,9 @@
         "heading": "",
         "subheading": "",
         "padding_top": 60,
-        "padding_bottom": 60,
+        "padding_bottom": 0,
         "padding_top_mobile": 40,
-        "padding_bottom_mobile": 40
+        "padding_bottom_mobile": 0
       }
     },
     "two_layer_richtext_tA6x9L": {
