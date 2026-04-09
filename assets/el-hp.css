@@ -218,4 +218,7 @@ h1 {
 .video_wrapper_custom img {
     cursor: pointer;
 }
+.videos_top_slider.center {
+    padding-bottom: 40px;
+}
 /* video css end */
