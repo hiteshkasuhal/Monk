@@ -386,4 +386,12 @@ h1 {
 .el-footer-menu {
     width: 25%;
 }
+.el-footer-menu ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-size: 18px;
+    line-height: normal;
+}
 /* footer css end */
