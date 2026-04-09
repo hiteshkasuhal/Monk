@@ -90,6 +90,13 @@ ul.slick-dots {
     list-style-type: none;
     gap: 12px;
 }
+ul.slick-dots li {
+    width: 21px;
+    height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /* same css end */
 
 
