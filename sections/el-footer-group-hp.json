@@ -13,18 +13,64 @@
   "sections": {
     "el_footer_wdMg78": {
       "type": "el-footer",
+      "blocks": {
+        "image_yBMdkJ": {
+          "type": "image",
+          "settings": {
+            "link": "#",
+            "image": "shopify://shop_images/Logo_Monk._White.webp",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "custom_id": "",
+            "custom_class": "el-footer-logo"
+          }
+        },
+        "richtext_RYgpJp": {
+          "type": "richtext",
+          "settings": {
+            "text": "<ul><li><a href=\"#\" title=\"#\">menu 1</a></li><li><a href=\"#\" title=\"#\">menu 2</a></li><li><a href=\"#\" title=\"#\">menu 3</a></li><li><a href=\"#\" title=\"#\">menu 4</a></li><li><a href=\"#\" title=\"#\">menu 5</a></li></ul>",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": "el-footer-menu el-footer-menu1"
+          }
+        },
+        "richtext_rnKetM": {
+          "type": "richtext",
+          "settings": {
+            "text": "<ul><li><a href=\"#\" title=\"#\">menu 1</a></li><li><a href=\"#\" title=\"#\">menu 2</a></li><li><a href=\"#\" title=\"#\">menu 3</a></li><li><a href=\"#\" title=\"#\">menu 4</a></li><li><a href=\"#\" title=\"#\">menu 5</a></li></ul>",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": "el-footer-menu el-footer-menu2"
+          }
+        },
+        "richtext_tcJP3Q": {
+          "type": "richtext",
+          "settings": {
+            "text": "<ul><li><a href=\"#\" title=\"#\">menu 1</a></li><li><a href=\"#\" title=\"#\">menu 2</a></li><li><a href=\"#\" title=\"#\">menu 3</a></li><li><a href=\"#\" title=\"#\">menu 4</a></li><li><a href=\"#\" title=\"#\">menu 5</a></li></ul>",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": "el-footer-menu el-footer-text1"
+          }
+        }
+      },
+      "block_order": [
+        "image_yBMdkJ",
+        "richtext_RYgpJp",
+        "richtext_rnKetM",
+        "richtext_tcJP3Q"
+      ],
       "name": "Footer",
       "settings": {
         "background_color": "#263245",
         "text_color": "#ffffff",
         "text_alignment": "left",
-        "padding_top": 50,
-        "padding_bottom": 100,
+        "padding_top": 60,
+        "padding_bottom": 60,
         "text_alignment_mobile": "left",
-        "padding_top_mobile": 30,
-        "padding_bottom_mobile": 65,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
         "custom_id": "",
-        "custom_class": ""
+        "custom_class": "el-footer-section"
       }
     }
   },
