@@ -184,3 +184,19 @@ h1 {
     line-height: normal;
 }
 /* section4 css end */
+
+
+
+/* video css start */
+.column_slider_rating_top a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 18px;
+    gap: 9px;
+    line-height: normal;
+    font-weight: 500;
+    padding-bottom: 16px;
+}
+/* video css end */
