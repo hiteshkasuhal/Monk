@@ -380,4 +380,7 @@ h1 {
 .el-footer-logo img {
     width: 102px;
 }
+.el-footer-logo {
+    width: 20%;
+}
 /* footer css end */
