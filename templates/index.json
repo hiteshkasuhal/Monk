@@ -352,6 +352,22 @@
             "richtext": "<p>\"I used to set app limits in my phone settings...I always hit ignore.\"</p><p>Griffin</p>"
           }
         },
+        "video_X7bCBD": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/copy_872E63CF-8C75-4370-88F0-41EE86D361C1.mov",
+            "text": "",
+            "richtext": "<p>\"I used to set app limits in my phone settings...I always hit ignore.\"</p><p>Griffin</p>"
+          }
+        },
+        "video_RDmdih": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/copy_872E63CF-8C75-4370-88F0-41EE86D361C1.mov",
+            "text": "",
+            "richtext": "<p>\"I used to set app limits in my phone settings...I always hit ignore.\"</p><p>Griffin</p>"
+          }
+        },
         "video_VWpqzF": {
           "type": "video",
           "settings": {
@@ -371,6 +387,8 @@
       },
       "block_order": [
         "video_9LYVWi",
+        "video_X7bCBD",
+        "video_RDmdih",
         "video_VWpqzF",
         "video_GpFzmb"
       ],
