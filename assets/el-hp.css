@@ -265,4 +265,10 @@ h1 {
     text-align: left;
     opacity: 0.5;
 }
+.videos_slider_item .video_text_slider_new {
+    padding: 20px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
 /* video css end */
