@@ -205,4 +205,7 @@ h1 {
 .videos_slider_item {
     padding: 0px 12px;
 }
+.videos_slider_main {
+    margin: 0px -12px;
+}
 /* video css end */
