@@ -335,4 +335,11 @@ h1 {
     gap: 30px;
     flex-wrap: wrap;
 }
+.faq_center_main {
+    width: calc(50% - 15px);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex-wrap: wrap;
+}
 /* faq css end */
