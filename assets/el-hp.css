@@ -277,7 +277,8 @@ h1 {
     height: 290px;
     width: auto;
     object-fit: contain;
-    margin: 0px 7px;
+    margin: 0 10px;
+    border-radius: 10px;
 }
 /* img slider bar css end */
 
