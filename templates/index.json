@@ -432,11 +432,56 @@
             "svg": "",
             "text": ""
           }
+        },
+        "column_xw7iC6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2.webp",
+            "svg": "",
+            "text": ""
+          }
+        },
+        "column_7i9jpg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/3.webp",
+            "svg": "",
+            "text": ""
+          }
+        },
+        "column_W6YDy8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Texto.webp",
+            "svg": "",
+            "text": ""
+          }
+        },
+        "column_yXmrGp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/7.webp",
+            "svg": "",
+            "text": ""
+          }
+        },
+        "column_KYdpNB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/10.webp",
+            "svg": "",
+            "text": ""
+          }
         }
       },
       "block_order": [
         "column_ajzJJW",
-        "column_Mmzfdq"
+        "column_Mmzfdq",
+        "column_xw7iC6",
+        "column_7i9jpg",
+        "column_W6YDy8",
+        "column_yXmrGp",
+        "column_KYdpNB"
       ],
       "name": "Icons With Text LP",
       "settings": {
