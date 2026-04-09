@@ -340,12 +340,86 @@
         "padding_top_mobile": 40,
         "padding_bottom_mobile": 40
       }
+    },
+    "video_slider_lp_eGnkU8": {
+      "type": "video_slider_lp",
+      "blocks": {
+        "video_NgM4HN": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/copy_872E63CF-8C75-4370-88F0-41EE86D361C1.mov",
+            "text": "\"I used to set app limits in my phone settings...I always hit ignore.\"",
+            "richtext": "<p>Griffin</p>"
+          }
+        },
+        "video_A8TKHa": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/copy_872E63CF-8C75-4370-88F0-41EE86D361C1.mov",
+            "text": "\"I used to set app limits in my phone settings...I always hit ignore.\"",
+            "richtext": "<p>Griffin</p>"
+          }
+        },
+        "video_9LYVWi": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/copy_872E63CF-8C75-4370-88F0-41EE86D361C1.mov",
+            "text": "\"I used to set app limits in my phone settings...I always hit ignore.\"",
+            "richtext": "<p>Griffin</p>"
+          }
+        },
+        "video_WCWFaD": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/copy_872E63CF-8C75-4370-88F0-41EE86D361C1.mov",
+            "text": "\"I used to set app limits in my phone settings...I always hit ignore.\"",
+            "richtext": "<p>Griffin</p>"
+          }
+        },
+        "video_jL3fhf": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/copy_872E63CF-8C75-4370-88F0-41EE86D361C1.mov",
+            "text": "\"I used to set app limits in my phone settings...I always hit ignore.\"",
+            "richtext": "<p>Griffin</p>"
+          }
+        }
+      },
+      "block_order": [
+        "video_NgM4HN",
+        "video_A8TKHa",
+        "video_9LYVWi",
+        "video_WCWFaD",
+        "video_jL3fhf"
+      ],
+      "name": "Video Slider LP",
+      "settings": {
+        "custom_class": "",
+        "custom_id": "",
+        "bg_color": "#f0f0f0",
+        "color": "#121212",
+        "svg_desktop": "",
+        "svg_mobile": "",
+        "svg_desktop2": "",
+        "svg_mobile2": "",
+        "rating": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"79\" height=\"15\" viewBox=\"0 0 79 15\" fill=\"none\">\n  <path d=\"M7.5 0L9.18841 5.1761L14.6329 5.18237L10.2319 8.38765L11.9084 13.5676L7.5 10.3725L3.09161 13.5676L4.76809 8.38765L0.367076 5.18237L5.81159 5.1761L7.5 0Z\" fill=\"#EBA701\"/>\n  <path d=\"M23.5 0L25.1884 5.1761L30.6329 5.18237L26.2319 8.38765L27.9084 13.5676L23.5 10.3725L19.0916 13.5676L20.7681 8.38765L16.3671 5.18237L21.8116 5.1761L23.5 0Z\" fill=\"#EBA701\"/>\n  <path d=\"M39.5 0L41.1884 5.1761L46.6329 5.18237L42.2319 8.38765L43.9084 13.5676L39.5 10.3725L35.0916 13.5676L36.7681 8.38765L32.3671 5.18237L37.8116 5.1761L39.5 0Z\" fill=\"#EBA701\"/>\n  <path d=\"M55.5 0L57.1884 5.1761L62.6329 5.18237L58.2319 8.38765L59.9084 13.5676L55.5 10.3725L51.0916 13.5676L52.7681 8.38765L48.3671 5.18237L53.8116 5.1761L55.5 0Z\" fill=\"#EBA701\"/>\n  <path d=\"M71.5 0L73.1884 5.1761L78.6329 5.18237L74.2319 8.38765L75.9084 13.5676L71.5 10.3725L67.0916 13.5676L68.7681 8.38765L64.3671 5.18237L69.8116 5.1761L71.5 0Z\" fill=\"#EBA701\"/>\n</svg>",
+        "rating_text": "35,000+ 5-star reviews",
+        "heading": "What our customers are saying:",
+        "subheading": "",
+        "columns_desktop": 3,
+        "columns_mobile": 1,
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40
+      }
     }
   },
   "order": [
     "el_richtext_GMYWPn",
     "review_slider_lp_F7UBxm",
     "two_layer_richtext_6PcBr8",
-    "two_layer_richtext_tA6x9L"
+    "two_layer_richtext_tA6x9L",
+    "video_slider_lp_eGnkU8"
   ]
 }
