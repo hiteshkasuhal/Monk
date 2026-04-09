@@ -255,4 +255,9 @@ h1 {
     aspect-ratio: 365/458;
     object-fit: cover;
 }
+.videos_slider_item .video_text_slider_new p:nth-child(1) {
+    text-align: left;
+    font-size: 20px;
+    line-height: normal;
+}
 /* video css end */
