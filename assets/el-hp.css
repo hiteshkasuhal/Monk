@@ -309,4 +309,9 @@ h1 {
 .el-section7-list1 .icons_with_text_flex .icons_with_text_item .icon_svg_main {
     display: none;
 }
+.el-section7-list1 .icons_with_text_flex .icons_with_text_item span p:nth-child(1) {
+    font-size: 21px;
+    font-weight: 600;
+    padding-bottom: 12px;
+}
 /* section7 css end */
