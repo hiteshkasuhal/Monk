@@ -11,18 +11,6 @@ $(document).on("click", ".question_product,.faq_question", function (e) {
 });
 
 
-$(document).on("click", ".iron_ing_section .review_user_flex", function (e) {
-  if (jQuery(this).hasClass("active")) {
-    jQuery(this).toggleClass('active');
-    jQuery(this).next().slideToggle();
-  } else {
-    jQuery('.iron_ing_section .review_user_flex').removeClass('active');
-    jQuery('.iron_ing_section .review_user_flex').next().slideUp();
-    jQuery(this).toggleClass('active');
-    jQuery(this).next().slideToggle();
-  }
-});
-
 
 
 
@@ -68,7 +56,7 @@ $(document).on("click", "a[href='#faq']", function (e) {
 
 $(document).on("click", "a[href='#']", function (e) {
   e.preventDefault();
-  document.querySelector('.custom_price_landing_page').scrollIntoView({
+  document.querySelector('.landing_page_product').scrollIntoView({
     behavior: 'smooth'
   })
 });
@@ -146,114 +134,3 @@ location.href="/checkout";
  } 
  });
   });
-
-
-
-  $(document).on("click", '.custom_ajax_atc', function(e) {
-  e.preventDefault();
-  // ✅ Backup original open function
-  var originalOpen = window.upcartOpenCart;
-
-  // ✅ Temporarily disable drawer open
-  window.upcartOpenCart = function() { return false; };
-  var $btn = $(this).addClass('loading_hk'),
-      id = $btn.attr('variant_id'),
-      quantity = $btn.attr('quantity'),
-      selling_plan = $btn.attr('selling_plan'),
-      data = { id: id, quantity: quantity };
-  if (selling_plan) data.selling_plan = selling_plan;
-
-  $.post('/cart/add.js', data, function () { 
-    $btn.removeClass("loading_hk");
-   //location.href = '/checkout';
-  }, 'json');
-});
-
-
-
-$(document).on("click", '.popup_close,.popup_bg', function (e) {
- e.preventDefault(); 
-$('.popup_main').hide().removeClass('active');
-});
-
-
-$(document).on("click", "a[href='#ingredients']", function (e) {
-  e.preventDefault();
-$('.popup_main').show().addClass('active');
-});
-
-
-/*
-
-$(document).on('click', '.product_image_wrapper img', function () {
-
-  var imgSrc = $(this).attr('src');
-  var imgAlt = $(this).attr('alt');
-
-  $('.image_zoom_target')
-    .attr('src', imgSrc)
-    .attr('alt', imgAlt)
-    .css({
-      transform: 'scale(1)',
-      transformOrigin: 'center center'
-    });
-
-  $('.image_zoom_modal').addClass('active');
-});
-
-
-// Click to zoom inside popup
-$(document).on('click', '.image_zoom_target', function (e) {
-
-  var rect = this.getBoundingClientRect();
-
-  if (!$(this).hasClass('zoomed')) {
-
-    var offsetX = e.clientX - rect.left;
-    var offsetY = e.clientY - rect.top;
-
-    var percentX = (offsetX / rect.width) * 100;
-    var percentY = (offsetY / rect.height) * 100;
-
-    $(this).css({
-      transformOrigin: percentX + '% ' + percentY + '%',
-      transform: 'scale(3)'
-    }).addClass('zoomed');
-
-  } else {
-
-    $(this).css({
-      transform: 'scale(1)',
-      transformOrigin: 'center center'
-    }).removeClass('zoomed');
-  }
-});
-
-
-// Close on overlay click
-$(document).on('click', '.image_zoom_overlay', function () {
-  closeZoomModal();
-});
-// Close on overlay click
-$(document).on('click', '.popup_close_zoom', function () {
-  closeZoomModal();
-});
-
-
-// Close on ESC
-$(document).on('keyup', function (e) {
-  if (e.key === "Escape") {
-    closeZoomModal();
-  }
-});
-
-function closeZoomModal() {
-  $('.image_zoom_target')
-    .css({
-      transform: 'scale(1)',
-      transformOrigin: 'center center'
-    })
-    .removeClass('zoomed');
-
-  $('.image_zoom_modal').removeClass('active');
-}*/
