@@ -442,7 +442,7 @@
       "settings": {
         "custom_class": "el-hp-img-slider",
         "custom_id": "",
-        "bg_color": "#263245",
+        "bg_color": "#ffffff",
         "text_color": "",
         "heading": "",
         "enable_slider": true,
@@ -506,7 +506,7 @@
         "svg_mobile": "",
         "svg_desktop2": "",
         "svg_mobile2": "",
-        "bg_color": "rgba(0,0,0,0)",
+        "bg_color": "#f0f0f0",
         "bg_color2": "",
         "color": "#000000",
         "position": "left",
@@ -579,7 +579,7 @@
       "settings": {
         "custom_class": "el-hp-faq",
         "custom_id": "",
-        "bg_color": "#f0f0f0",
+        "bg_color": "#ffffff",
         "color": "#000000",
         "heading": "<strong>FAQs</strong>",
         "text": "",
