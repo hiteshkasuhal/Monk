@@ -317,4 +317,10 @@ h1 {
     font-weight: 600;
     padding-bottom: 12px;
 }
+.el-section7-list1 .icons_with_text_flex .icons_with_text_item span p:nth-child(2) {
+    border-radius: 10px;
+    background: #f0f0f0;
+    font-size: 16px;
+    padding: 14px 14px;
+}
 /* section7 css end */
