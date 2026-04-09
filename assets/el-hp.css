@@ -328,5 +328,11 @@ h1 {
 
 
 /* faq css start */
-
+.faq_center {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
 /* faq css end */
