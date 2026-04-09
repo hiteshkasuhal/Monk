@@ -344,14 +344,6 @@
     "video_slider_lp_eGnkU8": {
       "type": "video_slider_lp",
       "blocks": {
-        "video_A8TKHa": {
-          "type": "video",
-          "settings": {
-            "video": "shopify://files/videos/copy_872E63CF-8C75-4370-88F0-41EE86D361C1.mov",
-            "text": "\"I used to set app limits in my phone settings...I always hit ignore.\"",
-            "richtext": "<p>Griffin</p>"
-          }
-        },
         "video_9LYVWi": {
           "type": "video",
           "settings": {
@@ -378,7 +370,6 @@
         }
       },
       "block_order": [
-        "video_A8TKHa",
         "video_9LYVWi",
         "video_WCWFaD",
         "video_TtyD7T"
