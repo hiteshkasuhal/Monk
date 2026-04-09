@@ -80,6 +80,11 @@ h1 {
     line-height: 65px;
     text-transform: capitalize;
 }
+.slider_navigations.center {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
 /* same css end */
 
 
