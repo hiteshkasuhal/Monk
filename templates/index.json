@@ -10,39 +10,6 @@
 {
   "layout": "theme.el-hp",
   "sections": {
-    "richtext_lp_8a7rFx": {
-      "type": "richtext_lp",
-      "blocks": {
-        "html_pJhtn7": {
-          "type": "html",
-          "settings": {
-            "text": "<link rel=\"stylesheet\" type=\"text/css\" https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css\"/>\n<script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js\"></script>",
-            "custom_class": ""
-          }
-        }
-      },
-      "block_order": [
-        "html_pJhtn7"
-      ],
-      "name": "Richtext LP",
-      "settings": {
-        "custom_class": "",
-        "custom_id": "",
-        "svg_desktop": "",
-        "svg_mobile": "",
-        "svg_desktop2": "",
-        "svg_mobile2": "",
-        "bg_color": "",
-        "bg_color2": "",
-        "color": "",
-        "position": "center",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "padding_top_mobile": 50,
-        "padding_bottom_mobile": 50,
-        "trigger_class": ""
-      }
-    },
     "el_richtext_GMYWPn": {
       "type": "el-richtext",
       "blocks": {
@@ -606,7 +573,6 @@
     }
   },
   "order": [
-    "richtext_lp_8a7rFx",
     "el_richtext_GMYWPn",
     "review_slider_lp_F7UBxm",
     "two_layer_richtext_6PcBr8",
