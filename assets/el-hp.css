@@ -346,4 +346,14 @@ h1 {
     background: #fff;
     border-radius: 10px;
 }
+.faq_question {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: normal;
+    font-size: 21px;
+    padding: 16px;
+    font-weight: 500;
+}
 /* faq css end */
