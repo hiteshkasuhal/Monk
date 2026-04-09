@@ -164,4 +164,15 @@ h1 {
 .el-section4-list1 .icons_with_text_flex .icons_with_text_item {
     width: calc(33.3% - (30px)*2/3);
 }
+.el-section4-list1 .icons_with_text_flex .icons_with_text_item img {
+    height: 200px;
+    width: auto;
+    object-fit: contain;
+    margin: 0px auto;
+}
+.el-section4-list1 .icons_with_text_flex .icons_with_text_item span {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
 /* section4 css end */
