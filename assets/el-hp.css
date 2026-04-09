@@ -214,4 +214,8 @@ h1 {
     overflow: hidden;
     border-radius: 10px;
 }
+.video_wrapper_custom video, 
+.video_wrapper_custom img {
+    cursor: pointer;
+}
 /* video css end */
