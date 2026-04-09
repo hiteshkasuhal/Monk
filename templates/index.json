@@ -402,14 +402,32 @@
         "column_ajzJJW": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/slider-img2.webp",
+            "image": "shopify://shop_images/1.webp",
+            "svg": "",
+            "text": ""
+          }
+        },
+        "column_Mmzfdq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2.webp",
+            "svg": "",
+            "text": ""
+          }
+        },
+        "column_rjN8rJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/3.webp",
             "svg": "",
             "text": ""
           }
         }
       },
       "block_order": [
-        "column_ajzJJW"
+        "column_ajzJJW",
+        "column_Mmzfdq",
+        "column_rjN8rJ"
       ],
       "name": "Icons With Text LP",
       "settings": {
