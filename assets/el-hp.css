@@ -242,6 +242,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .custom_button span {
     width: 50px;
