@@ -325,7 +325,7 @@
         "svg_mobile": "",
         "svg_desktop2": "",
         "svg_mobile2": "",
-        "bg_color": "",
+        "bg_color": "#f0f0f0",
         "bg_color2": "",
         "color": "#000000",
         "position": "center",
