@@ -372,5 +372,9 @@ h1 {
 
 
 /* footer css start */
-
+.el-footer-section .el-footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 /* footer css end */
