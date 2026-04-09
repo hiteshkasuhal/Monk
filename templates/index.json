@@ -275,11 +275,76 @@
         "padding_top_mobile": 0,
         "padding_bottom_mobile": 40
       }
+    },
+    "two_layer_richtext_tA6x9L": {
+      "type": "two_layer_richtext",
+      "blocks": {
+        "heading_LyzgXw": {
+          "type": "heading",
+          "settings": {
+            "text": "What's wrong with other solutions?",
+            "heading_size": "h1",
+            "h1": false,
+            "position": "left",
+            "custom_class": "el-section4-heading"
+          }
+        },
+        "icons_with_text_bmdBUX": {
+          "type": "icons_with_text",
+          "settings": {
+            "svg1": "",
+            "image1": "shopify://shop_images/hp-section4-img1.avif",
+            "text1": "<p><strong>1. Screentime limits are too easy to bypass</strong></p><p>Unfortunately, we all know what happens. A quick pincode and \"ignore\" button makes them ineffective in 2 seconds.</p>",
+            "svg2": "",
+            "image2": "shopify://shop_images/hp-section4-img2.avif",
+            "text2": "<p><strong>2. Leaving your phone at home is unrealistic, most of the time</strong></p><p>Yes, we've been there, and it's just too extreme. You might even get lost in the woods. We literally did.</p>",
+            "svg3": "",
+            "text3": "<p><strong>3. Dumb phones lack the tools we love</strong></p><p>Nokia, we see you. You're amazingly cool and deserve a spot, but we love our maps, great camera, and a few fun & stupid videos just too much to make the switch</p>",
+            "svg4": "",
+            "text4": "",
+            "svg5": "",
+            "text5": "",
+            "svg6": "",
+            "text6": "",
+            "loading": "eager",
+            "fetchpriority": "high",
+            "position": "left",
+            "custom_class": "el-section4-list1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_LyzgXw",
+        "icons_with_text_bmdBUX"
+      ],
+      "name": "Two Richtext LP",
+      "settings": {
+        "custom_class": "el-hp-section4",
+        "custom_id": "",
+        "svg_desktop": "",
+        "svg_mobile": "",
+        "svg_desktop2": "",
+        "svg_mobile2": "",
+        "bg_color": "",
+        "bg_color2": "",
+        "color": "#000000",
+        "position": "center",
+        "content_size": 100,
+        "rating": "",
+        "rating_mobile": "",
+        "heading": "",
+        "subheading": "",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40
+      }
     }
   },
   "order": [
     "el_richtext_GMYWPn",
     "review_slider_lp_F7UBxm",
-    "two_layer_richtext_6PcBr8"
+    "two_layer_richtext_6PcBr8",
+    "two_layer_richtext_tA6x9L"
   ]
 }
