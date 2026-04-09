@@ -292,13 +292,14 @@ h1 {
     padding-top: 40px;
 }
 .el-section7-list1 .icons_with_text_flex .icons_with_text_item {
-    width: calc(25% - (25px)*3/4);
+    width: calc(25% - 18.75px);
     display: flex;
     flex-direction: column;
     gap: 21px;
     border: 1px solid #0b0b0b1f;
     border-radius: 10px;
     padding: 12px;
+    background: #fff;
 }
 .el-section7-list1 .icons_with_text_flex .icons_with_text_item img {
     aspect-ratio: 281/281;
@@ -317,7 +318,7 @@ h1 {
 }
 .el-section7-list1 .icons_with_text_flex .icons_with_text_item span p:nth-child(2) {
     border-radius: 10px;
-    background: #fff;
+    background: #f0f0f0;
     font-size: 16px;
     padding: 14px 14px;
 }
