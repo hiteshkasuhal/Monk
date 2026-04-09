@@ -14,11 +14,15 @@
     "el_footer_wdMg78": {
       "type": "el-footer",
       "blocks": {
-        "image_yBMdkJ": {
-          "type": "image",
+        "icon_with_text_PgweWK": {
+          "type": "icon_with_text",
           "settings": {
-            "link": "#",
             "image": "shopify://shop_images/Logo_Monk._White.webp",
+            "liquid": "",
+            "title": "",
+            "text": "<p>Block distractions while working on tasks that require real focus. Perfect for coding, writing, studying, or building.</p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
             "image_loading": "lazy",
             "image_performance": "low",
             "custom_id": "",
@@ -63,7 +67,7 @@
         }
       },
       "block_order": [
-        "image_yBMdkJ",
+        "icon_with_text_PgweWK",
         "richtext_RYgpJp",
         "richtext_rnKetM",
         "richtext_tcJP3Q",
