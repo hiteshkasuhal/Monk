@@ -342,4 +342,8 @@ h1 {
     gap: 30px;
     flex-wrap: wrap;
 }
+.faq_slider_item {
+    background: #fff;
+    border-radius: 10px;
+}
 /* faq css end */
