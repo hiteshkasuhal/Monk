@@ -116,6 +116,9 @@ ul.slick-dots li.slick-active button {
     fill: #263245;
     fill-opacity: 1;
 }
+.slider_button_custom svg path {
+    stroke: #fff;
+}
 /* same css end */
 
 
