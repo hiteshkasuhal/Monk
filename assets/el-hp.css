@@ -260,4 +260,9 @@ h1 {
     font-size: 20px;
     line-height: normal;
 }
+.videos_slider_item .video_text_slider_new p:nth-child(2) {
+    font-size: 16px;
+    text-align: left;
+    opacity: 0.5;
+}
 /* video css end */
