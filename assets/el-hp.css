@@ -175,4 +175,10 @@ h1 {
     flex-direction: column;
     gap: 16px;
 }
+.el-section4-list1 .icons_with_text_flex .icons_with_text_item span strong {
+    display: block;
+    font-size: 25px;
+    padding-top: 10px;
+    line-height: normal;
+}
 /* section4 css end */
