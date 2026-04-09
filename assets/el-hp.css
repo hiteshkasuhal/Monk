@@ -97,6 +97,7 @@ ul.slick-dots li button {
     width: 100%;
     height: 100%;
     font-size: 0px;
+    cursor: pointer;
 }
 ul.slick-dots li {
     width: 16px;
