@@ -341,7 +341,7 @@ h1 {
     flex-wrap: wrap;
 }
 .faq_slider_item {
-    background: #fff;
+    background: #f0f0f0;
     border-radius: 10px;
 }
 .faq_question {
