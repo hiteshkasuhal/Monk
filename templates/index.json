@@ -436,6 +436,71 @@
         "padding_top_mobile": 30,
         "padding_bottom_mobile": 30
       }
+    },
+    "two_layer_richtext_Ach8wG": {
+      "type": "two_layer_richtext",
+      "blocks": {
+        "heading_iPyRzx": {
+          "type": "heading",
+          "settings": {
+            "text": "Use Phase When Focus Matters",
+            "heading_size": "h1",
+            "h1": false,
+            "position": "left",
+            "custom_class": "el-section7-heading"
+          }
+        },
+        "icons_with_text_RgGDPW": {
+          "type": "icons_with_text",
+          "settings": {
+            "svg1": "",
+            "image1": "shopify://shop_images/hp-section4-img1.avif",
+            "text1": "<p><strong>1. Screentime limits are too easy to bypass</strong></p><p>Unfortunately, we all know what happens. A quick pincode and \"ignore\" button makes them ineffective in 2 seconds.</p>",
+            "svg2": "",
+            "image2": "shopify://shop_images/hp-section4-img2.avif",
+            "text2": "<p><strong>2. Leaving your phone at home is unrealistic, most of the time</strong></p><p>Yes, we've been there, and it's just too extreme. You might even get lost in the woods. We literally did.</p>",
+            "svg3": "",
+            "image3": "shopify://shop_images/hp-section4-img3.avif",
+            "text3": "<p><strong>3. Dumb phones lack the tools we love</strong></p><p>Nokia, we see you. You're amazingly cool and deserve a spot, but we love our maps, great camera, and a few fun & stupid videos just too much to make the switch</p>",
+            "svg4": "",
+            "text4": "",
+            "svg5": "",
+            "text5": "",
+            "svg6": "",
+            "text6": "",
+            "loading": "eager",
+            "fetchpriority": "high",
+            "position": "left",
+            "custom_class": "el-section7-list1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_iPyRzx",
+        "icons_with_text_RgGDPW"
+      ],
+      "name": "Two Richtext LP",
+      "settings": {
+        "custom_class": "el-hp-section7",
+        "custom_id": "",
+        "svg_desktop": "",
+        "svg_mobile": "",
+        "svg_desktop2": "",
+        "svg_mobile2": "",
+        "bg_color": "rgba(0,0,0,0)",
+        "bg_color2": "",
+        "color": "#000000",
+        "position": "left",
+        "content_size": 100,
+        "rating": "",
+        "rating_mobile": "",
+        "heading": "",
+        "subheading": "",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40
+      }
     }
   },
   "order": [
@@ -444,6 +509,7 @@
     "two_layer_richtext_6PcBr8",
     "two_layer_richtext_tA6x9L",
     "video_slider_lp_eGnkU8",
-    "icons_with_text_lp_jrqtUA"
+    "icons_with_text_lp_jrqtUA",
+    "two_layer_richtext_Ach8wG"
   ]
 }
