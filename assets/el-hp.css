@@ -390,7 +390,7 @@ h1 {
     list-style-type: none;
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 16px;
     font-size: 18px;
     line-height: normal;
 }
