@@ -248,9 +248,6 @@ ul.slick-dots li.slick-active button {
     padding: 0px 12px;
     cursor: grab;
 }
-.videos_slider_main {
-    margin: 0px -12px;
-}
 .video_wrapper_custom {
     position: relative;
     overflow: hidden;
@@ -320,6 +317,7 @@ ul.slick-dots li.slick-active button {
 }
 .video_slider_custom .slick-list.draggable {
     padding: 0px 12%;
+    margin: 0 -12px;
 }
 /* video css end */
 
