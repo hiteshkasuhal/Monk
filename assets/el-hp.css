@@ -394,4 +394,7 @@ h1 {
     font-size: 18px;
     line-height: normal;
 }
+.el-footer-menu ul a {
+    text-decoration: none;
+}
 /* footer css end */
