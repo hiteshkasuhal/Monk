@@ -293,4 +293,10 @@ h1 {
     gap: 25px;
     padding-top: 40px;
 }
+.el-section7-list1 .icons_with_text_flex .icons_with_text_item {
+    width: calc(25% - (25px)*3/4);
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
 /* section7 css end */
