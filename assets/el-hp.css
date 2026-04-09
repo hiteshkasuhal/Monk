@@ -299,4 +299,14 @@ h1 {
     flex-direction: column;
     gap: 21px;
 }
+.el-section7-list1 .icons_with_text_flex .icons_with_text_item img {
+    aspect-ratio: 281/281;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.el-section7-list1 .icons_with_text_flex .icons_with_text_item .icon_svg_main {
+    display: none;
+}
 /* section7 css end */
