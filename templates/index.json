@@ -414,20 +414,11 @@
             "svg": "",
             "text": ""
           }
-        },
-        "column_rjN8rJ": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/3.webp",
-            "svg": "",
-            "text": ""
-          }
         }
       },
       "block_order": [
         "column_ajzJJW",
-        "column_Mmzfdq",
-        "column_rjN8rJ"
+        "column_Mmzfdq"
       ],
       "name": "Icons With Text LP",
       "settings": {
